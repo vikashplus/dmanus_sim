@@ -37,7 +37,7 @@
                         <geom name="FR1310_mesh" mesh="FR121" pos="0 0 0" euler="0 0 1.57" class="viz_dhand"/>
                         <geom name="fingertip" type="box" pos="0 0 0.071" size="0.01 0.012 0.043" class="col_dhand"/>
                         <geom name="fingertip_mesh" mesh="fingertip" pos="0 0 0.028" class="viz_dhand"/>
-                        <joint name="IFJ3" type="hinge" pos="0 0 0" axis="1 0 0" limited="true" range="-2.0 2.0"/>
+                        <joint name="IFJ3" type="hinge" pos="0 0 0" axis="1 0 0" limited="true" range="0 2.0"/>
                     </body> 
                 </body>
             </body>
@@ -72,7 +72,7 @@
                             <geom name="FR1311_mesh" mesh="FR121" pos="0 0 0" euler="0 0 1.57" class="viz_dhand"/>
                             <geom name="fingertip2" type="box" pos="0 0 0.071" size="0.01 0.012 0.043" class="col_dhand"/>
                             <geom name="fingertip2_mesh" mesh="fingertip" pos="0 0 0.028" class="viz_dhand"/>
-                            <joint name="LFJ3" type="hinge" pos="0 0 0" axis="1 0 0" limited="true" range="-2.0 2.0"/>
+                            <joint name="LFJ3" type="hinge" pos="0 0 0" axis="1 0 0" limited="true" range="0 2.0"/>
                         </body> 
                     </body>
                 </body>
@@ -109,7 +109,7 @@
                             <geom name="FR1312_mesh" mesh="FR121" pos="0 0 0" euler="0 0 1.57" class="viz_dhand"/>
                             <geom name="fingertip3" type="box" pos="0 0 0.071" size="0.01 0.012 0.043" class="col_dhand"/>
                             <geom name="fingertip3_mesh" mesh="fingertip" pos="0 0 0.028" class="viz_dhand"/>
-                            <joint name="TFJ3" type="hinge" pos="0 0 0" axis="1 0 0" limited="true" range="-2.0 2.0"/>
+                            <joint name="TFJ3" type="hinge" pos="0 0 0" axis="1 0 0" limited="true" range="0 2.0"/>
                         </body> 
                     </body>
                 </body>
