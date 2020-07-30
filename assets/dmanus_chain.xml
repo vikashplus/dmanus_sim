@@ -94,7 +94,7 @@
                     <geom name="thumb_cover_mesh" mesh="thumb_cover" pos=" 0 -0.0215 -0.01" euler="0 3.14 3.14" rgba="1 1 1 1" class="viz_dhand"/>
                     <geom name="X4308" type="box" pos="0 -0.0045 0.0418" size="0.02325 0.01425 0.017" euler="1.57 1.57 0" class="col_dhand"/>
                     <geom name="X4308_mesh" mesh="X430" pos="0 0.01875 0.042" euler="1.57 0 1.57" class="viz_dhand"/>
-                    <joint name="TFJ1" type="hinge" pos="0 0 0" axis="0 1 0" limited="true" range="-0.75 0.75"/>
+                    <joint name="TFJ1" type="hinge" pos="0 0 0" axis="0 1 0" limited="true" range="-1 0.75"/>
 
                     <body name="link11" pos="-0.001 -0.0165 0.042">
                         <geom name="FR1232" type="box" pos="0 0 0.0275" size="0.021 0.015 0.0275" class="col_dhand"/>
