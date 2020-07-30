@@ -35,9 +35,9 @@
         <position joint="LFJ1" name="LFA1" kp="100" ctrllimited="true" ctrlrange="-0.75 0.75"/>
         <position joint="LFJ2" name="LFA2" kp="100" ctrllimited="true" ctrlrange="0.0 2.14"/>
         <position joint="LFJ3" name="LFA3" kp="100" ctrllimited="true" ctrlrange="0.0 2.0"/>
-        <position joint="TFJ1" name="TFA1" kp="100" ctrllimited="true" ctrlrange="-1 0.75"/>
+        <position joint="TFJ1" name="TFA1" kp="100" ctrllimited="true" ctrlrange="-0.75 0.75"/>
         <position joint="TFJ2" name="TFA2" kp="100" ctrllimited="true" ctrlrange="-0.65 2.14"/>
-        <position joint="TFJ3" name="TFA3" kp="100" ctrllimited="true" ctrlrange="-2.0 2.0"/>
+        <position joint="TFJ3" name="TFA3" kp="100" ctrllimited="true" ctrlrange="-0.0 2.0"/>
     </actuator>
 
 </mujocoinclude>
