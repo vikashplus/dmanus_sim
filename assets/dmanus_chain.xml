@@ -2,21 +2,22 @@
 
     <!--Palm-->
     <body name="palm" pos="0 0 0" childclass="dhand">
-        <!-- <geom name="boxup" type="box" pos="0 0 0.08895" size="0.03 0.02505 0.02005" class="col_dhand"/> -->
-        <geom name="boxdown" type="box" pos="0 0 0.055" size="0.06 0.02505 0.055" class="col_dhand"/>
-        <geom name="skeleton_mesh" mesh="skeleton" rgba="1 1 1 1" pos="0 0 0.109" class="viz_dhand"/>
+     <!--   <geom name="boxdown" type="box" pos="0 0 0.055" size="0.06 0.0255 0.055" class="col_dhand"/> -->
+        <geom name="skeleton_mesh" mesh="skeleton" rgba="1 1 1 1" pos="-0.001 0 0.1032" class="viz_dhand"/>
+        <geom name="Palmcenter" mesh="PalmC" pos="-0.001 0 0.1032" class="cov_dhand"/>
+        <geom name="Palmright" mesh="PalmR" pos="-0.001 0 0.1032" class="cov_dhand"/>
+        <geom name="Palmleft" mesh="PalmL" pos="-0.001 0 0.1032" class="cov_dhand"/>
 
-        <!-- <geom name="X430W2_mesh" mesh="X430" pos="-0.0022 0 0.041" euler="3.14 0 1.57" class="viz_dhand"/> -->
-        
-        <geom name="plate1_mesh" mesh="plate" pos="0.001 -0.0255 0.109" class="viz_dhand"/>
-        <geom name="plate2_mesh" mesh="plate" pos="0.001 0.0235 0.109" class="viz_dhand"/>
+
+        <!--Plate-->
+          <geom name="plate1_mesh" mesh="plate" pos="0 -0.0255 0.1032" class="viz_dhand"/>
+          <geom name="plate2_mesh" mesh="plate" pos="0 0.0235 0.1032" class="viz_dhand"/>
 
         <!--Index Finger-->
-        <body name="index_finger" pos="0.0455 0.002 0.0455">
-            <geom name="X430" type="box" pos="0 0 0.0465" size="0.01425 0.017 0.02325" class="col_dhand"/>
-            <geom name="X430_mesh" mesh="X430" pos="0 0 0.02325" class="viz_dhand"/>
+        <body name="index_finger" pos="0.0445 0.002 0.06325">
+            <geom name="X430_mesh" mesh="X430" pos="0 0 0" class="viz_dhand"/>
 
-            <body name="index_proximal" pos="0 0 0.058">
+            <body name="index_proximal" pos="0 0 0.03475">
                 <geom name="FR1210" type="box" pos="0 0 0.01308" size="0.012 0.0205 0.015" class="col_dhand"/>
                 <geom name="FR1210_mesh" mesh="FR121" pos="0 0 0" class="viz_dhand"/>
                 <geom name="X4302" type="box" pos="0 -0.0045 0.0418" size="0.02325 0.01425 0.017" euler="1.57 1.57 0" class="col_dhand"/>
@@ -24,7 +25,7 @@
                 <joint name="IFJ1" type="hinge" pos="0 0 0" axis="0 1 0" limited="true" range="-0.75 2.05"/>
 
                 <body name="index_middle" pos="-0.001 -0.0165 0.042">
-                    <geom name="FR1230" type="box" pos="0 0 0.0275" size="0.021 0.015 0.0275" class="col_dhand"/>
+                    <geom name="FR1230" type="box" pos="0 0 0.0275" size="0.021 0.0123 0.0275" euler="0.114 0 0" class="col_dhand"/>
                     <geom name="FR1230_mesh" mesh="FR123" pos="0 0 0" class="viz_dhand"/>
                     <geom name="cover1_mesh" mesh="covering" pos="0 -0.0148 0.048" rgba="1 1 1 1" euler="0 0 3.14" class="viz_dhand"/>
                     <!-- <geom name="cover1" type="box" pos="0.027 0 0.085" size="0.019 0.014 0.0155" class="col_dhand"/> -->
@@ -35,9 +36,10 @@
                     <body name="index_distal" pos="0 0 0.09025">
                         <geom name="FR1310" type="box" pos="0 0 0.014" size="0.0205 0.012 0.014" class="col_dhand"/>
                         <geom name="FR1310_mesh" mesh="FR121" pos="0 0 0" euler="0 0 1.57" class="viz_dhand"/>
-                        <geom name="fingertip" type="box" pos="0 0 0.071" size="0.01 0.012 0.043" class="col_dhand"/>
+                      <!--  <geom name="fingertip" type="box" pos="0 0 0.071" size="0.01 0.012 0.043" class="col_dhand"/> -->
                         <geom name="fingertip_mesh" mesh="fingertip" pos="0 0 0.028" class="viz_dhand"/>
-                        <joint name="IFJ3" type="hinge" pos="0 0 0" axis="1 0 0" limited="true" range="0 2.0"/>
+                        <geom name="convextip1" mesh="fingertipc" pos="0 0 0.028" class="cov_dhand"/>
+                        <joint name="IFJ3" type="hinge" pos="0 0 0" axis="1 0 0" limited="true" range="-2.0 2.0"/>
                     </body> 
                 </body>
             </body>
@@ -45,14 +47,10 @@
         <!--Index Finger end-->
 
         <!--Little Finger-->
-        <body name="little_finger" pos="0 0 0">
-            <geom name="skeletonext" type="box" pos="0 0 0.08895" size="0.03 0.0235 0.02005" class="col_dhand"/>
-
-            <body name="little_proximal" pos="-0.043 0.002 0.0455">
-                <geom name="X4304" type="box" pos="0 0 0.0465" size="0.01425 0.017 0.02325" class="col_dhand"/>
-                <geom name="X4304_mesh" mesh="X430" pos="0 0 0.02325" class="viz_dhand"/>
+        <body name="little_finger" pos="-0.0445 0.002 0.06325">
+                <geom name="X4304_mesh" mesh="X430" pos="0 0 0" class="viz_dhand"/>
                 
-                <body name="link6" pos="0 0 0.0522">
+                <body name="little_proximal" pos="0 0 0.03475">
                     <geom name="FR1211" type="box" pos="0 0 0.0125" size="0.012 0.0205 0.015" class="col_dhand"/>
                     <geom name="FR1211_mesh" mesh="FR121" pos="0 0 0" class="viz_dhand"/>
                     <geom name="X4305" type="box" pos="0 -0.0045 0.0418" size="0.02325 0.01425 0.017" euler="1.57 1.57 0" class="col_dhand"/>
@@ -60,7 +58,7 @@
                     <joint name="LFJ1" type="hinge" pos="0 0 0" axis="0 1 0" limited="true" range="-2.05 0.75"/>
 
                     <body name="little_middle" pos="-0.001 -0.0165 0.042">
-                        <geom name="FR1231" type="box" pos="0 0 0.0275" size="0.021 0.015 0.0275" class="col_dhand"/>
+                        <geom name="FR1231" type="box" pos="0 0 0.0275" size="0.021 0.0123 0.0275" euler="0.114 0 0w" class="col_dhand"/>
                         <geom name="FR1231_mesh" mesh="FR123" pos="0 0 0" class="viz_dhand"/>
                         <geom name="cover2_mesh" mesh="covering" pos="0 -0.0148 0.048" rgba="1 1 1 1" euler="0 0 3.14" class="viz_dhand"/>
                         <geom name="X4306" type="box" pos="0 0 0.078" size="0.01425 0.017 0.02325" euler="0 0 1.57" class="col_dhand"/>
@@ -70,51 +68,47 @@
                         <body name="little_distal" pos="0 0 0.09025">
                             <geom name="FR1311" type="box" pos="0 0 0.014" size="0.0205 0.012 0.014" class="col_dhand"/>
                             <geom name="FR1311_mesh" mesh="FR121" pos="0 0 0" euler="0 0 1.57" class="viz_dhand"/>
-                            <geom name="fingertip2" type="box" pos="0 0 0.071" size="0.01 0.012 0.043" class="col_dhand"/>
+                          <!--  <geom name="fingertip2" type="box" pos="0 0 0.071" size="0.01 0.012 0.043" class="col_dhand"/> -->
                             <geom name="fingertip2_mesh" mesh="fingertip" pos="0 0 0.028" class="viz_dhand"/>
-                            <joint name="LFJ3" type="hinge" pos="0 0 0" axis="1 0 0" limited="true" range="0 2.0"/>
+                            <geom name="convextip2" mesh="fingertipc" pos="0 0 0.028" class="cov_dhand"/>
+                            <joint name="LFJ3" type="hinge" pos="0 0 0" axis="1 0 0" limited="true" range="-2.0 2.0"/>
                         </body> 
                     </body>
                 </body>
-            </body>   
         </body>
         <!--Little finger end-->
 
         <!--Thumb finger-->
-        <body name="Thumb_finger" pos="0 0 -0.0058">
-            <geom name="skeletonext2" type="box" pos="0 0 0.08895" size="0.03 0.0235 0.02005" class="col_dhand"/>
+        <body name="Thumb_finger" pos="0.0343 0 0.027" euler="0 1.92 0">
+            <geom name="X4307_mesh" mesh="X430" pos="0 0 0" class="viz_dhand"/>
 
-            <body name="link9" pos="0.009 0.001 0.04035" euler="0 1.935 0">
-                <geom name="X4307" type="box" pos="0 0 0.0465" size="0.01425 0.017 0.02325" class="col_dhand"/>
-                <geom name="X4307_mesh" mesh="X430" pos="0 0 0.02325" class="viz_dhand"/>
-
-                <body name="link10" pos="0 0 0.048">
-                    <geom name="FR1212" type="box" pos="0 0 0.0125" size="0.012 0.0205 0.015" class="col_dhand"/>
+                <body name="thumb_proximal" pos="0 0 0.03475">
+                    <geom name="FR1212" type="box" pos="0 -0.0034 0.0125" size="0.012 0.023875 0.015" class="col_dhand"/>
                     <geom name="FR1212_mesh" mesh="FR121" pos="0 0 0" class="viz_dhand"/>
-                    <geom name="thumb_cover_mesh" mesh="thumb_cover" pos=" 0 -0.0215 -0.01" euler="0 3.14 3.14" rgba="1 1 1 1" class="viz_dhand"/>
+                    <geom name="thumb_cover_mesh" mesh="thumb_cover" pos=" 0 -0.0206 -0.01" euler="0 3.14 3.14" rgba="1 1 1 1" class="viz_dhand"/>
                     <geom name="X4308" type="box" pos="0 -0.0045 0.0418" size="0.02325 0.01425 0.017" euler="1.57 1.57 0" class="col_dhand"/>
                     <geom name="X4308_mesh" mesh="X430" pos="0 0.01875 0.042" euler="1.57 0 1.57" class="viz_dhand"/>
                     <joint name="TFJ1" type="hinge" pos="0 0 0" axis="0 1 0" limited="true" range="-1 0.75"/>
 
-                    <body name="link11" pos="-0.001 -0.0165 0.042">
-                        <geom name="FR1232" type="box" pos="0 0 0.0275" size="0.021 0.015 0.0275" class="col_dhand"/>
+                    <body name="thumb_middle" pos="-0.001 -0.0165 0.042">
+                        <geom name="FR1232" type="box" pos="0 0 0.0275" size="0.021 0.0123 0.0275" euler="0.114 0 0" class="col_dhand"/>
                         <geom name="FR1232_mesh" mesh="FR123" pos="0 0 0" class="viz_dhand"/>
                         <geom name="cover3_mesh" mesh="covering" pos="0 -0.0148 0.048" rgba="1 1 1 1" euler="0 0 3.14" class="viz_dhand"/>
                         <geom name="X4309" type="box" pos="0 0 0.078" size="0.01425 0.017 0.02325" euler="0 0 1.57" class="col_dhand"/>
                         <geom name="X4309_mesh" mesh="X430" pos="0 0 0.055" euler="0 0 1.57" class="viz_dhand"/>
                         <joint name="TFJ2" type="hinge" pos="0 0 0" axis="1 0 0" limited="true" range="-0.65 2.14"/>
 
-                        <body name="link12" pos="0 0 0.09025">
+                        <body name="thumb_distal" pos="0 0 0.09025">
                             <geom name="FR1312" type="box" pos="0 0 0.014" size="0.0205 0.012 0.014" class="col_dhand"/>
                             <geom name="FR1312_mesh" mesh="FR121" pos="0 0 0" euler="0 0 1.57" class="viz_dhand"/>
-                            <geom name="fingertip3" type="box" pos="0 0 0.071" size="0.01 0.012 0.043" class="col_dhand"/>
+                           <!-- <geom name="fingertip3" type="box" pos="0 0 0.071" size="0.01 0.012 0.043" class="col_dhand"/> -->
                             <geom name="fingertip3_mesh" mesh="fingertip" pos="0 0 0.028" class="viz_dhand"/>
-                            <joint name="TFJ3" type="hinge" pos="0 0 0" axis="1 0 0" limited="true" range="0 2.0"/>
+                            <geom name="convextip3" mesh="fingertipc" pos="0 0 0.028" class="cov_dhand"/>
+                            <joint name="TFJ3" type="hinge" pos="0 0 0" axis="1 0 0" limited="true" range="-2.0 2.0"/>
                         </body> 
                     </body>
                 </body>
-            </body>   
-        </body> 
+        </body>
         <!--Thumb finger end-->
     
     </body>
