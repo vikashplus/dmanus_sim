@@ -5,7 +5,11 @@
         <mesh name="FR121" file="highres/FR121.stl" scale="1 1 1"/>
         <mesh name="FR123" file="highres/FR123.stl" scale="1 1 1"/>
         <mesh name="skeleton" file="highres/skeleton.stl" scale="1 1 1"/>
+        <mesh name="PalmC" file="convex/PalmC.stl" scale="1 1 1"/>
+        <mesh name="PalmL" file="convex/PalmL.stl" scale="1 1 1"/>
+        <mesh name="PalmR" file="convex/PalmR.stl" scale="1 1 1"/>
         <mesh name="fingertip" file="highres/fingertip.stl" scale="1 1 1"/>
+        <mesh name="fingertipc" file="convex/fingertipc.stl" scale="1 1 1"/>
         <mesh name="plate" file="highres/plate.stl" scale="1 1 1"/>
         <mesh name="covering" file="highres/covering.stl" scale="1 1 1"/>
         <mesh name="thumb_cover" file="highres/thumb_cover.stl" scale="1 1 1"/>

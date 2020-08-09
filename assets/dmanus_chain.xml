@@ -4,9 +4,9 @@
     <body name="palm" pos="0 0 0" childclass="dhand">
      <!--   <geom name="boxdown" type="box" pos="0 0 0.055" size="0.06 0.0255 0.055" class="col_dhand"/> -->
         <geom name="skeleton_mesh" mesh="skeleton" rgba="1 1 1 1" pos="-0.001 0 0.1032" class="viz_dhand"/>
-        <geom name="Palmcenter" mesh="PalmC" pos="-0.001 0 0.1032" class="cov_dhand"/>
-        <geom name="Palmright" mesh="PalmR" pos="-0.001 0 0.1032" class="cov_dhand"/>
-        <geom name="Palmleft" mesh="PalmL" pos="-0.001 0 0.1032" class="cov_dhand"/>
+        <geom name="Palmcenter" type="mesh" mesh="PalmC" pos="-0.001 0 0.1032" class="col_dhand"/>
+        <geom name="Palmright" type="mesh" mesh="PalmR" pos="-0.001 0 0.1032" class="col_dhand"/>
+        <geom name="Palmleft" type="mesh" mesh="PalmL" pos="-0.001 0 0.1032" class="col_dhand"/>
 
 
         <!--Plate-->
@@ -38,7 +38,7 @@
                         <geom name="FR1310_mesh" mesh="FR121" pos="0 0 0" euler="0 0 1.57" class="viz_dhand"/>
                       <!--  <geom name="fingertip" type="box" pos="0 0 0.071" size="0.01 0.012 0.043" class="col_dhand"/> -->
                         <geom name="fingertip_mesh" mesh="fingertip" pos="0 0 0.028" class="viz_dhand"/>
-                        <geom name="convextip1" mesh="fingertipc" pos="0 0 0.028" class="cov_dhand"/>
+                        <geom name="convextip1" type="mesh" mesh="fingertipc" pos="0 0 0.028" class="col_dhand"/>
                         <joint name="IFJ3" type="hinge" pos="0 0 0" axis="1 0 0" limited="true" range="-2.0 2.0"/>
                     </body> 
                 </body>
@@ -70,7 +70,7 @@
                             <geom name="FR1311_mesh" mesh="FR121" pos="0 0 0" euler="0 0 1.57" class="viz_dhand"/>
                           <!--  <geom name="fingertip2" type="box" pos="0 0 0.071" size="0.01 0.012 0.043" class="col_dhand"/> -->
                             <geom name="fingertip2_mesh" mesh="fingertip" pos="0 0 0.028" class="viz_dhand"/>
-                            <geom name="convextip2" mesh="fingertipc" pos="0 0 0.028" class="cov_dhand"/>
+                            <geom name="convextip2" type="mesh" mesh="fingertipc" pos="0 0 0.028" class="col_dhand"/>
                             <joint name="LFJ3" type="hinge" pos="0 0 0" axis="1 0 0" limited="true" range="-2.0 2.0"/>
                         </body> 
                     </body>
@@ -103,7 +103,7 @@
                             <geom name="FR1312_mesh" mesh="FR121" pos="0 0 0" euler="0 0 1.57" class="viz_dhand"/>
                            <!-- <geom name="fingertip3" type="box" pos="0 0 0.071" size="0.01 0.012 0.043" class="col_dhand"/> -->
                             <geom name="fingertip3_mesh" mesh="fingertip" pos="0 0 0.028" class="viz_dhand"/>
-                            <geom name="convextip3" mesh="fingertipc" pos="0 0 0.028" class="cov_dhand"/>
+                            <geom name="convextip3" type="mesh" mesh="fingertipc" pos="0 0 0.028" class="col_dhand"/>
                             <joint name="TFJ3" type="hinge" pos="0 0 0" axis="1 0 0" limited="true" range="-2.0 2.0"/>
                         </body> 
                     </body>
