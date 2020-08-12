@@ -44,5 +44,5 @@
         <position joint="TFJ2" name="TFA2" kp="100" ctrllimited="true" ctrlrange="-0.65 2.14"/>
         <position joint="TFJ3" name="TFA3" kp="100" ctrllimited="true" ctrlrange="0.0 1.48"/>
     </actuator>
-
+    
 </mujocoinclude>
