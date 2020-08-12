@@ -10,4 +10,4 @@
         <mesh name="PalmL1" file="convex/PalmL1.stl" scale="1 1 1"/>
         <mesh name="PalmL2" file="convex/PalmL2.stl" scale="1 1 1"/>
     </asset>
-</mujocoinclude>    
+</mujocoinclude>   
