@@ -12,7 +12,7 @@
             <joint name="WJLR" type="hinge" pos="0 0 0" axis="0 1 0" limited="true" range="-0.52 0.52"/>
 
             <body name="wrist_UD" pos="0 0 0.056">
-                <geom mesh="X430" pos="0 0 0.03525" euler="0 3.14 1.57" class="viz_dhand"/>
+                <geom mesh="X430" pos="0 0 0.03525" euler="0 3.14 -1.57" class="viz_dhand"/>
                 <geom type="box" pos="0 0 0.012" euler="0 3.14 1.57" size="0.01425 0.017 0.02325" class="col_dhand"/>
                 <joint name="WJUD" type="hinge" pos="0 0 0" axis="1 0 0" limited="true" range="-0.785 0.785"/>
 
