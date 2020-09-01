@@ -1,0 +1,10 @@
+<mujocoinclude>
+	<geom name="handle" size="0.025 0.05" quat="0.707388 0 0.706825 0" type="capsule" condim="4" rgba="0.8 0.2 0.2 1"/>
+	<geom name="handleB" size="0.030 0.030 0.01" pos=".065 0 0" quat="0.707388 0 0.706825 0" type="ellipsoid" condim="4" rgba="0.8 0.2 0.2 1"/>
+	<geom name="handleT" size="0.030 0.030 0.01" pos="-.065 0 0" quat="0.707388 0 0.706825 0" type="ellipsoid" condim="4" rgba="0.8 0.2 0.2 1"/>
+	
+	<geom name="neck" size="0.007 0.085" pos="-0.14 0 0" quat="0.707388 0 0.706825 0" type="capsule" condim="4" rgba="1 1 1 1" />
+	<geom name="head" size="0.02 0.04" pos="-0.24 0 0" type="cylinder" condim="4" rgba="0.4 0.4 0.4 1" euler="1.57 0 0" mass=".5"/>
+	<site name="tool0" pos="-0.24 0.04 0" size="0.01" group="4" rgba="0.4 0.8 0.4 1" />
+	<site name="tool1" pos="-0.24 -.04 0" size="0.01" group="4" rgba="0.4 0.8 0.4 1" />
+</mujocoinclude>

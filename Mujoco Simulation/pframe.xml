@@ -1,0 +1,10 @@
+<mujocoinclude>
+
+         <geom name="framebox" size="0.25 0.3 0.01" quat="0.707388 0 0.706825 0" type="box" condim="4" rgba="0.2 0.8 0.2 1"/>
+         <geom name="side1" size="0.25 0.05 0.005" pos="0.01 0.25 0" type="box" euler="0 1.57 0" condim="4" rgba="0.4 0.2 0.2 1"/>
+         <geom name="side2" size="0.25 0.05 0.005" pos="0.01 -0.25 0" type="box" euler="0 1.57 0" condim="4" rgba="0.4 0.2 0.2 1"/>
+         <geom name="side3" size="0.3 0.05 0.005" pos="0.01 0 0.2" type="box" euler="1.57 1.57 0" condim="4" rgba="0.4 0.2 0.2 1"/>
+         <geom name="side4" size="0.3 0.05 0.005" pos="0.01 0 -0.2" type="box" euler="1.57 1.57 0" condim="4" rgba="0.4 0.2 0.2 1"/>
+         <geom name="support" size="0.2 0.07 0.01" pos="-0.11 0 -0.04" type="box" euler="0 -1 0" condim="4" rgba="0.2 0.8 0.2 1"/>
+
+</mujocoinclude>         
