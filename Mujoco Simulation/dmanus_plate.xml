@@ -1,0 +1,20 @@
+<mujoco>
+    
+     <include file="basic.xml"/>
+    <include file="assets/dmanus_wrist_assets.xml"/>
+    <include file="assets/dmanus_assets.xml"/>
+    <include file="assets/dmanus_convex.xml"/>
+
+    <worldbody>
+        
+        <body name="stand" pos="0 -0.2 0.14" euler="-1.57 0 0">
+            <include file="assets/dmanus_wrist_chain.xml"/>
+        </body>
+
+        <body name="plate" pos="0.03 0 0.22" euler="0 1.57 0">
+             <include file="plate.xml"/>
+             <freejoint name='Jplate'/>
+        </body>
+
+    </worldbody>
+</mujoco>
