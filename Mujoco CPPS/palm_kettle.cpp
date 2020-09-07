@@ -159,10 +159,14 @@ int main(int argc, const char** argv)
         mjtNum simstart = d->time;
         while( d->time - simstart < 1.0/60.0 )
         {
-                if (d->time <0.5)
+                if (d->time <1)
+                {
+                    d->ctrl[1] = 0;
+                }
+                else if (d->time <1.25)
                 {
                     d->ctrl[1] = 0.5;
-                    }
+                }
                 else if (d->time <1.5)
                 {
                     d->ctrl[3] = 2.0;
