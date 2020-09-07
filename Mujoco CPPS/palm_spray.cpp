@@ -159,29 +159,29 @@ int main(int argc, const char** argv)
         mjtNum simstart = d->time;
         while( d->time - simstart < 1.0/60.0 )
         {
-                if (d->time <0.5)
+                if (d->time <1)
                 {
-                    d->ctrl[5] = -0.75;
+                    d->ctrl[8] = 0;
                 }
-                else if (d->time <1)
+                else if (d->time <1.25)
                 {
-                    d->ctrl[6] = 1.8;
-                    d->ctrl[7] = 1.5;
+                    d->ctrl[8] = 0.75;
+                }
+                else if (d->time <1.5)
+                {
+                    d->ctrl[3] = 2.0;
+                    d->ctrl[4] = 1.8;
+                    d->ctrl[6] = 2.0;
+                    d->ctrl[7] = 1.8;
                     d->ctrl[9] = 2.0;
-                    d->ctrl[10] = 1.5;
-                }
-                else if (d->time <2)
-                {
-                    d->ctrl[3] = 0.8;
-                    d->ctrl[4] = 0.6;
-                    d->ctrl[0] = 0.5;
+                    d->ctrl[10] = 1.8;
                 }
                 else if (d->time <10)
                 {
-                    d->ctrl[1] = -0.26*sin(5*d->time) - 0.26;
-                }                              
+                    d->ctrl[0] = 0.26*sin(25*d->time) + 0.26;
+                }
             mj_step(m, d);
-        }           
+        }
         // get framebuffer viewport
         mjrRect viewport = {0, 0, 0, 0};
         glfwGetFramebufferSize(window, &viewport.width, &viewport.height);
