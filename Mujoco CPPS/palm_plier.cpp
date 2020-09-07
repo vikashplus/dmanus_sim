@@ -161,22 +161,27 @@ int main(int argc, const char** argv)
         {
                 if (d->time <1)
                 {
-                    d->ctrl[2] = 0;
+                    d->ctrl[8] = 0;
                 }
                 else if (d->time <1.25)
                 {
-                    d->ctrl[2] = 1;
-                    d->ctrl[5] = -1;
-                    d->ctrl[8] = 0.7;
+                    d->ctrl[8] = -0.15;
                 }
                 else if (d->time <1.5)
                 {
-                    d->ctrl[3] = 0.7;
-                    d->ctrl[6] = 0.7;
-                    d->ctrl[9] = 0.7;
+                    d->ctrl[3] = 2.0;
+                    d->ctrl[4] = 1.7;
+                    d->ctrl[6] = 2.0;
+                    d->ctrl[7] = 1.7;
+                    d->ctrl[9] = 1.9;
+                    d->ctrl[10] = 1.5;
                 }
+                else if (d->time <10)
+                {
+                    d->ctrl[0] = 0.26*sin(25*d->time) + 0.26;
+                }                              
             mj_step(m, d);
-        }
+        }           
         // get framebuffer viewport
         mjrRect viewport = {0, 0, 0, 0};
         glfwGetFramebufferSize(window, &viewport.width, &viewport.height);
