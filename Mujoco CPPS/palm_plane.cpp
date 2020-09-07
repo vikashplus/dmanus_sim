@@ -161,22 +161,20 @@ int main(int argc, const char** argv)
         {
                 if (d->time <0.5)
                 {
-                    d->ctrl[2] = 1;
-                    d->ctrl[5] = -1;
-                    d->ctrl[8] = 0.7;
+                    d->ctrl[8] = 0.6;
                     }
                 else if (d->time <1.5)
                 {
-                    d->ctrl[3] = 1.42;
-                    d->ctrl[4] = 1.42;
-                    d->ctrl[6] = 1.42;
-                    d->ctrl[7] = 1.42;
-                    d->ctrl[9] = 1.42;
-                    d->ctrl[10] = 1.42;
+                    d->ctrl[3] = 1.8;
+                    d->ctrl[4] = 1.7;
+                    d->ctrl[6] = 1.8;
+                    d->ctrl[7] = 1.7;
+                    d->ctrl[9] = 2.0;
+                    d->ctrl[10] = 1.2;
                 }
                 else if (d->time <10)
                 {
-                    d->ctrl[1] = 0.3925*sin(5*d->time) + 0.3925;
+                    d->ctrl[1] = 0.3925*sin(25*d->time) + 0.3925;
                 }
             mj_step(m, d);
         }
