@@ -159,12 +159,16 @@ int main(int argc, const char** argv)
         mjtNum simstart = d->time;
         while( d->time - simstart < 1.0/60.0 )
         {
-                if (d->time <0.5)
+                if (d->time <1)
+                {
+                    d->ctrl[5] = 0;
+                }
+                else if (d->time <1.25)
                 {
                     d->ctrl[5] = -0.15;
                     d->ctrl[8] = 0.7;
-                    }
-                else if (d->time <10)
+                }
+                else if (d->time <1.5)
                 {
                     d->ctrl[3] = 1.8;
                     d->ctrl[4] = 1.7;
@@ -172,6 +176,10 @@ int main(int argc, const char** argv)
                     d->ctrl[7] = 1.7;
                     d->ctrl[9] = 2.14;
                     d->ctrl[10] = 1.0;
+                }
+                else if (d->time <10)
+                {
+                    d->ctrl[1] = 0.3925*sin(20*d->time) + 0.3925;
                 }
             mj_step(m, d);
         }
