@@ -161,9 +161,13 @@ int main(int argc, const char** argv)
         {
                 if (d->time <0.5)
                 {
+                    d->ctrl[8] = 0;
+                }
+                else if (d->time <1.25)
+                {
                     d->ctrl[8] = 0.25;
                 }
-                else if (d->time <1.5)
+                else if (d->time <1.75)
                 {
                     d->ctrl[3] = 1.8;
                     d->ctrl[4] = 1.7;
@@ -172,9 +176,9 @@ int main(int argc, const char** argv)
                     d->ctrl[9] = 2.0;
                     d->ctrl[10] = 1.7;
                 }
-                else if (d->time <8)
+                else if (d->time <7)
                 {
-                    d->ctrl[0] = 0.26*sin(5*d->time) + 0.26;
+                    d->ctrl[0] = 0.26*sin(25*d->time) + 0.26;
                 }                              
             mj_step(m, d);
         }           
