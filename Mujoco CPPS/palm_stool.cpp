@@ -161,6 +161,10 @@ int main(int argc, const char** argv)
         {
                 if (d->time <0.5)
                 {
+                    d->ctrl[8] = 0;
+                }
+                else if (d->time <1)
+                {
                     d->ctrl[8] = 0.25;
                 }
                 else if (d->time <1.5)
