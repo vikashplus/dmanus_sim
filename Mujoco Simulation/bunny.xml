@@ -1,0 +1,12 @@
+<mujocoinclude>
+
+        <geom name="B_body" size="0.045 0.045 0.08" euler="0 1.57 0" pos="0 0 0.005" type="ellipsoid" rgba="0.9 0.9 0.9 1"/>
+
+        <geom name="B_leg1" size="0.02 0.02 0.05" pos="0.07 0.02 -0.02" type="ellipsoid" rgba="0.9 0.9 0.9 1"/>
+        <geom name="B_leg2" size="0.02 0.02 0.05" pos="0.07 -0.02 -0.02" type="ellipsoid" rgba="0.9 0.9 0.9 1"/>
+
+        <geom name="Bhead" size="0.03" pos="-0.09 0 0" type="sphere" euler="0 0 1.57" rgba="0.9 0.9 0.9 1"/>
+        <geom name="ear1" size="0.04 0.007 0.007" pos="-0.14 -0.01 0" type="ellipsoid" euler="1.57 0.3 0" rgba="0.9 0.9 0.9 1"/>
+        <geom name="ear2" size="0.04 0.007 0.007" pos="-0.14 0.01 0" type="ellipsoid" euler="1.57 -0.3 0" rgba="0.9 0.9 0.9 1"/>
+        
+</mujocoinclude>        
