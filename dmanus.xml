@@ -12,6 +12,6 @@
         <body name="stand" pos="0 -0.2 0.05" euler="-1.57 0 0">
             <include file="assets/dmanus_wrist_chain.xml"/>
         </body>
-        
+
     </worldbody>
 </mujoco>

@@ -1,0 +1,10 @@
+<mujocoinclude>
+	<geom name="t_handle" size="0.01 0.025 0.08" quat="0.707388 0 0.706825 0" type="box" condim="4" rgba="0.43 0.42 0.42 1"/>
+    <geom name="t_handleB" size="0.02 0.04 0.005" pos="0.08 0 0" quat="0.707388 0 0.706825 0" type="box" condim="4" rgba="0.4 0.42 0.42 1"/>
+	<geom name="t_handleT" size="0.02 0.04 0.005" pos="-0.08 0 0" quat="0.707388 0 0.706825 0" type="box" condim="4" rgba="0.4 0.42 0.42 1"/>
+
+	<geom name="t_lip" size="0.006 0.015 0.025" pos="-0.105 0 0" quat="0.707388 0 0.706825 0" type="box" condim="4" rgba="1 1 1 1" />
+	<geom name="t_neck" size="0.006 0.015 0.025" pos="-0.138 0 -.018" euler="0 .57 0" type="box" condim="4" rgba="1 1 1 1" />
+	<geom name="t_head" size="0.006 0.015 0.055" pos="-0.203 0 -.0225" euler="0 -1.4 0" type="box" condim="4" rgba="1 1 1 1" />
+	<site name="t_tool0" pos="-0.205 0 0.02" size="0.01" group="4" rgba="0.4 0.8 0.4 1" />
+</mujocoinclude>

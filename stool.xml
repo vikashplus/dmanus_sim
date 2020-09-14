@@ -1,0 +1,8 @@
+<mujocoinclude>
+
+            <geom name="sitting" size="0.2 0.04" quat="0.707388 0 0.706825 0" euler="0 0 1.57" type="cylinder" condim="4" rgba="0.9 0.9 0.9 1"/>
+            <geom name="leg1" size="0.03 0.4" pos="0 -0.22 0.4" type="capsule" euler="0.42 0 0" condim="4" rgba="0.2 0.5 1 1"/>
+            <geom name="leg2" size="0.03 0.4" pos="0.2 0.17 0.36" type="capsule" euler="-0.4 0.4 0" condim="4" rgba="0.8 0.5 1 1"/>
+            <geom name="leg3" size="0.03 0.4" pos="-0.2 0.16 0.36" type="capsule" euler="-0.4 -0.4 0" condim="4" rgba="0.6 0.5 1 1"/>
+
+</mujocoinclude>            
