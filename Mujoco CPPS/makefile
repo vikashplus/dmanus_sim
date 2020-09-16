@@ -34,4 +34,12 @@ all:
         cl $(COMMON) palm_hammer2.cpp ../include/uitools.c ../bin/glfw3.lib ../bin/mujoco200.lib
         cl $(COMMON) palm_kettle.cpp ../include/uitools.c ../bin/glfw3.lib ../bin/mujoco200.lib
         cl $(COMMON) palm_pframe.cpp ../include/uitools.c ../bin/glfw3.lib ../bin/mujoco200.lib
+        cl $(COMMON) palm_spoon.cpp ../include/uitools.c ../bin/glfw3.lib ../bin/mujoco200.lib
+        cl $(COMMON) palm_turner.cpp ../include/uitools.c ../bin/glfw3.lib ../bin/mujoco200.lib
+        cl $(COMMON) palm_scraper.cpp ../include/uitools.c ../bin/glfw3.lib ../bin/mujoco200.lib
+        cl $(COMMON) palm_plate.cpp ../include/uitools.c ../bin/glfw3.lib ../bin/mujoco200.lib
+        cl $(COMMON) palm_bunny.cpp ../include/uitools.c ../bin/glfw3.lib ../bin/mujoco200.lib
+        cl $(COMMON) palm_lemon.cpp ../include/uitools.c ../bin/glfw3.lib ../bin/mujoco200.lib
+        cl $(COMMON) palm_pan.cpp ../include/uitools.c ../bin/glfw3.lib ../bin/mujoco200.lib
+        cl $(COMMON) palm_door.cpp ../include/uitools.c ../bin/glfw3.lib ../bin/mujoco200.lib
 	del *.obj
