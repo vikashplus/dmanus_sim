@@ -1,0 +1,10 @@
+<mujocoinclude>
+            
+            <geom name="ball1" size="0.06" quat="0.707388 0 0.7076825 0" type="sphere" condim="4" rgba=" 0.2 0.8 0.4 1"/>
+            <geom name="ball2" size="0.05" pos="0 0 0.06" type="sphere" condim="4" rgba=" 0.2 0.8 0.4 1"/>
+
+            <geom name="tip1" size="0.006 0.012" pos="0 0 0.11" type="cylinder" condim="4" rgba=" 0.2 0.8 0.4 1"/>
+            <geom name="tip2" size="0.008 0.008 0.006" pos="0 0 0.122" type="ellipsoid" condim="4" rgba=" 0.2 0.8 0.4 1"/>
+            <geom name="fbottom" size="0.04 0.009" pos="0 0 -0.05" type="cylinder" condim="4" rgba=" 0.2 0.8 0.4 1"/>
+
+</mujocoinclude>            

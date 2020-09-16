@@ -1,0 +1,12 @@
+<mujocoinclude>
+
+          <geom name="cr1" size="0.02" quat="0.707388 0 0.706825 0" type="sphere" condim="4" rgba="0.8 0.1 0.1 1"/>
+          <geom name="cr2" size="0.02" pos="0 0 0.035" type="sphere" condim="4" rgba="0.8 0.1 0.1 1"/>
+          <geom name="cr3" size="0.02" pos="0 0 0.07" type="sphere" condim="4" rgba="0.8 0.1 0.1 1"/>
+          <geom name="cr4" size="0.02" pos="0 0 0.105" type="sphere" condim="4" rgba="0.8 0.1 0.1 1"/>
+
+          <geom name="handler" size="0.007 0.007 0.05" pos="0 0 0.155" type="box" condim="4" rgba="0.5 0.5 0.5 1"/>
+          <geom name="cr5" size="0.02 0.007" pos="0 0 0.215" type="cylinder" euler="0 1.57 0" condim="4" rgba="0.5 0.5 0.5 1"/>
+          <geom name="nut" size="0.006 0.006 0.014" pos="0 0 0.215" type="box" euler="0 1.57 0" condim="4" rgba="0.4 0.4 0.4 1"/>
+
+</mujocoinclude>

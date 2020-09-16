@@ -1,0 +1,24 @@
+<mujoco>
+    
+     <include file="basic.xml"/>
+    <include file="assets/dmanus_wrist_assets.xml"/>
+    <include file="assets/dmanus_assets.xml"/>
+    <include file="assets/dmanus_convex.xml"/>
+
+    <worldbody>
+        
+        <body name="stand" pos="0 -0.2 1.25" euler="-1.57 0 3.14">
+            <include file="assets/dmanus_wrist_chain.xml"/>
+        </body>
+
+        <body name="shovel" pos="0.02 -0.01 0.6" euler="1.57 0 1.57">
+             <include file="tool_asset/shovel.xml"/>
+             <freejoint name="Jshovel"/>
+        </body>
+
+        <body name="shovel_stand" pos="0.02 0.035 0.415" euler="1.57 0 1.57">
+             <include file="tool_asset/shovel_stand.xml"/>
+        </body>
+
+    </worldbody>
+</mujoco>

@@ -1,0 +1,20 @@
+<mujoco>
+    
+    <include file="basic.xml"/>
+    <include file="assets/dmanus_wrist_assets.xml"/>
+    <include file="assets/dmanus_assets.xml"/>
+    <include file="assets/dmanus_convex.xml"/>
+
+    <worldbody>
+        
+        <body name="stand" pos="0 -0.2 0.07" euler="-1.57 0 -1.57">
+            <include file="assets/dmanus_wrist_chain.xml"/>
+        </body>
+
+        <body name="dustbin" pos="-0.1 -0.05 0.1">
+             <include file="tool_asset/dustbin.xml"/>
+             <freejoint name='Jdustbin'/>
+        </body>
+
+    </worldbody>
+</mujoco>
