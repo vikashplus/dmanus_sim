@@ -1,7 +1,0 @@
-<mujocoinclude>
-
-              <geom name="stbody" size="0.015 0.4" quat="0.707388 0 0.706825 0" type="cylinder" condim="4" rgba="0.6 0.6 0.6 1"/>
-              <geom name="base1St" size="0.1 0.1 0.015" pos="-0.4 0 -0.08" type="box" euler="0 1.57 0" condim="4" rgba=" 0.2 0.5 0.8 1"/>
-              <geom name="base2St" size="0.1 0.1 0.015" pos="0.4 0 -0.08" type="box" euler="0 1.57 0" condim="4" rgba=" 0.2 0.5 0.8 1"/>
-      
-</mujocoinclude>

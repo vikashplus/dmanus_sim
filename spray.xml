@@ -1,8 +1,0 @@
-<mujocoinclude>
-
-         <geom name="spbody" size="0.04 0.15" type="cylinder" condim="4" rgba="0.7 0.2 0.2 1"/>
-         <geom name="spcap" size="0.04" pos="0 0 0.137" type="sphere" condim="4" rgba="0.7 0.7 0.2 1"/>
-         <geom name="sptube" size="0.004 0.15"  pos="-0.1 0 0.2" type="cylinder" euler="0 -1 0" condim="4" rgba="0.7 0.2 0.2 1"/>
-         <geom name="scap2" size="0.01" pos="0 0 0.175" type="sphere" condim="4" rgba="0.7 0.2 0.2 1"/>
-
-</mujocoinclude>         

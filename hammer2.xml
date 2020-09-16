@@ -1,9 +1,0 @@
-<mujocoinclude>
-
-	<geom name="handleh2" size="0.08 0.03 0.03" pos="0.03 0 0" quat="0.707388 0 0.706825 0" euler="1.57 0 0" type="ellipsoid" condim="4" rgba="0.4 0.3 0.3 1"/>	
-	<geom name="neckh2" size="0.02 0.15" pos="-0.06 0 0" quat="0.707388 0 0.706825 0" type="capsule" condim="4" rgba="0.4 0.3 0.3 1" />
-	<geom name="headh2" size="0.03 0.05" pos="-0.19 0 0" type="cylinder" condim="4" rgba="0.3 0.3 0.3 1" euler="1.57 0 0" mass=".5"/>
-	<site name="tool0h2" pos="-0.24 0.04 0" size="0.01" group="4" rgba="0.4 0.8 0.4 1" />
-	<site name="tool1h2" pos="-0.24 -.04 0" size="0.01" group="4" rgba="0.4 0.8 0.4 1" />
-
-</mujocoinclude>
