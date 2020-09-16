@@ -1,0 +1,10 @@
+<mujocoinclude>
+
+              <geom name="m_body1" size="0.07 0.09" type="cylinder" condim="4" rgba="0.5 0.1 0.5 1"/>
+              <geom name="m_body2" size="0.07" pos="0 0 0.09" type="sphere" condim="4" rgba="0.5 0.1 0.5 1"/>
+              <geom name="m_body3" size="0.045 0.008" pos="0 0 0.15" type="cylinder" condim="4" rgba="0.5 0.1 0.5 1"/>
+              <geom name="m_h1" size="0.012 0.06" pos="0 -0.07 0.08" type="capsule" euler="1.57 0 0" condim="4" rgba="0.5 0.1 0.5 1"/>
+              <geom name="m_h2" size="0.012 0.075" pos="0 -0.13 0.005" type="capsule" euler="0 0 0" condim="4" rgba="0.5 0.1 0.5 1"/>
+              <geom name="m_h3" size="0.012 0.06" pos="0 -0.07 -0.07" type="capsule" euler="1.57 0 0" condim="4" rgba="0.5 0.1 0.5 1"/>
+
+</mujocoinclude>              

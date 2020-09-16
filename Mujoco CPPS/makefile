@@ -42,4 +42,5 @@ all:
         cl $(COMMON) palm_lemon.cpp ../include/uitools.c ../bin/glfw3.lib ../bin/mujoco200.lib
         cl $(COMMON) palm_pan.cpp ../include/uitools.c ../bin/glfw3.lib ../bin/mujoco200.lib
         cl $(COMMON) palm_door.cpp ../include/uitools.c ../bin/glfw3.lib ../bin/mujoco200.lib
+        cl $(COMMON) palm_mug.cpp ../include/uitools.c ../bin/glfw3.lib ../bin/mujoco200.lib
 	del *.obj
