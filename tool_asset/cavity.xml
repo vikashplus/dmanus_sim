@@ -1,0 +1,11 @@
+<mujocoinclude>
+
+                <body pos="0 0.05 0 " euler="0 0 -0.3">     
+                     <geom name="cav1" size="0.01 0.09 0.03" pos="0 0 0" type="box" condim="4" rgba="0.7 0.2 0.2 1"/>
+                     <geom name="cav2" size="0.01 0.09 0.03" pos="0.16 0 0" type="box" condim="4" rgba="0.7 0.2 0.2 1"/>
+                     <geom name="cav3" size="0.01 0.09 0.03" pos="0.08 0.08 0" type="box" euler="0 0 1.57" condim="4" rgba="0.7 0.2 0.2 1"/>
+                     <geom name="cav4" size="0.01 0.09 0.03" pos="0.08 -0.08 0" type="box" euler="0 0 1.57" condim="4" rgba="0.7 0.2 0.2 1"/>
+                </body>
+                     <geom name="spacer" size="0.02 0.02 0.005" pos="0.2 0 0.06" type="box" condim="4" rgba="0.8 0.1 0.1 0"/>
+
+</mujocoinclude>
