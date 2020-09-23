@@ -1,0 +1,10 @@
+<mujocoinclude>
+
+             <geom name="sw_body" size="0.07 0.01 0.07" type="box" contype="0" conaffinity="0" condim="4" rgba="0.8 0.8 0.8 1"/>
+        <body>     
+             <geom name="sw1" size="0.01 0.01 0.03" type="box" euler="0.5 0 0" condim="4" rgba="0.8 0.1 0.1 1"/>
+             <geom name="sw2" size="0.01 0.01 0.03" type="box" euler="-0.5 0 0" condim="4" rgba="0.8 0.1 0.1 1"/>
+             <joint name="swj" type="hinge" pos="0 0 0" axis="1 0 0" limited="true" damping="0.05" range="-0.4 0.4"/>
+        </body>     
+
+</mujocoinclude>             

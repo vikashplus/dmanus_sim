@@ -1,0 +1,15 @@
+<mujocoinclude>
+
+        <body>      
+              <geom name="l_body" size="0.1 0.2 0.1" type="box" condim="4" rgba="0.8 0.8 0.2 1"/>
+              <geom name="lb2" size="0.07 0.07 0.07" type="box" pos="-0.1 0 0" condim="4" rgba="0.8 0.8 0.8 1"/>
+            <body euler="0 0 -0.3">
+                <geom name="lb3" size="0.03 0.15 0.03" type="box" pos="-0.18 -0.15 0" contype="0" conaffinity="0" condim="4" rgba="0.8 0.8 0.2 1"/>
+                  <body euler="0 0 0.3">
+                    <geom name="lb5" size="0.03 0.15" type="capsule" pos="-0.4 -0.23 0" euler="0 1.57 0" condim="4" rgba="0.1 0.1 0.7 1"/>
+                    <joint name="leverJ" type="hinge" pos="-0.26 -0.23 0" axis="0 0 1"/>
+                </body>    
+            </body> 
+        </body>        
+
+</mujocoinclude>              

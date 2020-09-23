@@ -43,4 +43,9 @@ all:
         cl $(COMMON) palm_pan.cpp ../include/uitools.c ../bin/glfw3.lib ../bin/mujoco200.lib
         cl $(COMMON) palm_door.cpp ../include/uitools.c ../bin/glfw3.lib ../bin/mujoco200.lib
         cl $(COMMON) palm_mug.cpp ../include/uitools.c ../bin/glfw3.lib ../bin/mujoco200.lib
+        cl $(COMMON) palm_lever.cpp ../include/uitools.c ../bin/glfw3.lib ../bin/mujoco200.lib
+        cl $(COMMON) palm_switch.cpp ../include/uitools.c ../bin/glfw3.lib ../bin/mujoco200.lib
+        cl $(COMMON) palm_jack.cpp ../include/uitools.c ../bin/glfw3.lib ../bin/mujoco200.lib
+        cl $(COMMON) palm_box.cpp ../include/uitools.c ../bin/glfw3.lib ../bin/mujoco200.lib
+        cl $(COMMON) palm_ball.cpp ../include/uitools.c ../bin/glfw3.lib ../bin/mujoco200.lib
 	del *.obj

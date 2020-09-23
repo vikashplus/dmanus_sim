@@ -1,0 +1,20 @@
+<mujocoinclude>
+
+            <geom name="j_cyl" size="0.015 0.35" pos="0 0 0.05" type="cylinder" condim="4" rgba="0.5 0.5 0.5 1"/>
+            <geom name="jb1" size="0.01 0.02 0.18" pos="-0.11 0 0.15" type="box" euler="0 0.5 0" rgba="0.8 0.1 0.1 1"/>
+            <geom name="jb2" size="0.01 0.02 0.18" pos="-0.11 0 -0.15" type="box" euler="0 -0.5 0" rgba="0.8 0.1 0.1 1"/>
+            <geom name="jb3" size="0.02 0.04 0.04" pos="-0.22 0 0" type="box" rgba="0.8 0.8 0.1 1"/>
+            <geom name="jb4" size="0.03 0.03 0.03" pos="0 0 0.3" type="box" rgba="0.8 0.1 0.1 1"/>
+           
+            <geom name="jb5" size="0.01 0.02 0.18" pos="0.11 0 -0.15" type="box" euler="0 0.5 0" rgba="0.8 0.1 0.1 1"/>
+            <geom name="jb6" size="0.01 0.02 0.18" pos="0.11 0 0.15" type="box" euler="0 -0.5 0" rgba="0.8 0.1 0.1 1"/>
+            <geom name="jb7" size="0.02 0.04 0.04" pos="0.22 0 0" type="box" rgba="0.8 0.8 0.1 1"/>
+            <geom name="jb8" size="0.03 0.03 0.03" pos="0 0 -0.3" type="box" rgba="0.8 0.1 0.1 1"/>
+
+            <body>
+                    <geom name="j_cyl2" size="0.07 0.01" pos="0 0 0.4" type="cylinder" condim="4" rgba="0.5 0.5 0.5 1"/>
+                    <geom name="J_handle" size="0.021 0.1" pos="-0.04 0 0.5" type="cylinder" condim="4" rgba="0.5 0.5 0.5 1"/>
+                    <joint name="jackj" type="hinge" pos="0 0 0.4" axis="0 0 1"/> 
+            </body>        
+
+</mujocoinclude>            

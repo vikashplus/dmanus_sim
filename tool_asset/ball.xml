@@ -1,0 +1,5 @@
+<mujocoinclude>
+
+              <geom name="ball_body" size="0.04" type="sphere" condim="4" rgba="0.1 0.5 0.8 1"/>
+
+</mujocoinclude>              
