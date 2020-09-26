@@ -1,0 +1,5 @@
+<mujocoinclude>
+
+            <geom name="needle_body" size="0.005 0.005 0.05" type="box" condim="4" rgba="0.1 0.8 0.1 1"/>
+
+</mujocoinclude>            

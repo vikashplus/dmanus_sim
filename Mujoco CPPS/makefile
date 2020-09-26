@@ -48,4 +48,6 @@ all:
         cl $(COMMON) palm_jack.cpp ../include/uitools.c ../bin/glfw3.lib ../bin/mujoco200.lib
         cl $(COMMON) palm_box.cpp ../include/uitools.c ../bin/glfw3.lib ../bin/mujoco200.lib
         cl $(COMMON) palm_ball.cpp ../include/uitools.c ../bin/glfw3.lib ../bin/mujoco200.lib
+        cl $(COMMON) palm_tap2.cpp ../include/uitools.c ../bin/glfw3.lib ../bin/mujoco200.lib
+        cl $(COMMON) palm_needle.cpp ../include/uitools.c ../bin/glfw3.lib ../bin/mujoco200.lib
 	del *.obj
