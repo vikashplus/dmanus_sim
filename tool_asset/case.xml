@@ -1,0 +1,13 @@
+<mujocoinclude>
+    
+            <geom name="bodyCS" size="0.1 0.15 0.06" quat="0.707388 0 0.706825 0" type="box" conaffinity="0" contype="0" condim="4" rgba=" 0.5 0.2 0.2 1"/>
+        <body>    
+            <geom name="lidCS" size="0.006 0.15 0.06" pos="0.002 0 0.123" type="box" euler="0 -1.3 0" condim="4" rgba="0.5 0.2 0.2 1"/>
+            <joint type="hinge" name="caseJ" pos="0.06 0 0.1" axis="0 1 0" limited="true" range="0 0.5" />
+        </body>    
+            <geom name="CSstand1" size="0.01" pos="0.05 0.14 -0.1" type="sphere" condim="4" rgba="0.5 0.2 0.2 1"/>
+            <geom name="CSstand2" size="0.01" pos="0.05 -0.14 -0.1" type="sphere" condim="4" rgba="0.5 0.2 0.2 1"/>
+            <geom name="CSstand3" size="0.01" pos="-0.05 0.14 -0.1" type="sphere" condim="4" rgba="0.5 0.2 0.2 1"/>
+            <geom name="CSstand4" size="0.01" pos="-0.05 -0.14 -0.1" type="sphere" condim="4" rgba="0.5 0.2 0.2 1"/>
+
+</mujocoinclude>            

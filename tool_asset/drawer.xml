@@ -1,0 +1,19 @@
+<mujocoinclude>
+
+    <body>    
+        <geom name="drawer_b1" size="0.15 0.01 0.2" pos="0.115 -0.045 0" type="box" condim="4" rgba="0.8 0.8 0.8 1"/>
+        <geom name="drawer_b2" size="0.15 0.01 0.2" pos="0.115 0.335 0" type="box" condim="4" rgba="0.8 0.8 0.8 1"/>
+        <geom name="drawer_b3" size="0.15 0.01 0.2" pos="0.115 0.145 0.2" type="box" euler="1.57 0 0" condim="4" rgba="0.8 0.8 0.8 1"/>
+
+            <body>
+                <geom name="d_drawer" size="0.1 0.18 0.18" pos="0.05 0.15 0" type="box" contype="0" conaffinity="0" condim="4" rgba="0.1 0.1 0.1 1"/>
+                    <body pos="0.02 0.15 0 " euler="1.57 0 0"> 
+                            <geom name="drw_h1" size="0.01 0.05" pos="-0.1 0.145 0.1" type="capsule" euler="0 1.57 0" condim="4" rgba="0.8 0.8 0.8 1"/> 
+                            <geom name="drw_h2" size="0.01 0.1" pos="-0.15 0.145 0" type="capsule" euler="0 0 0" condim="4" rgba="0.8 0.8 0.8 1"/>
+                            <geom name="drw_h3" size="0.01 0.05" pos="-0.1 0.145 -0.1" type="capsule" euler="0 1.57 0" condim="4" rgba="0.8 0.8 0.8 1"/>
+                    </body> 
+                <joint name="drawerj" type="slide" pos="0 0 0" axis="1 0 0" limited="true" range="-0.1 0"/>
+            </body>    
+    </body>        
+
+</mujocoinclude>            
