@@ -5,9 +5,9 @@
       <geom name="X430W1_mesh" mesh="X430" class="viz_dhand"/>
 
         <body name="wrist_LR" pos="0 0 0.03525">
-            <geom mesh="FR121" pos="0 0 0" class="viz_dhand"/>
+            <geom mesh="FR121" pos="0 0 0" class="viz_dhand_metal"/>
             <geom type="box" pos="0 0 0.01305" size="0.012 0.0205 0.01505" class="col_dhand"/>
-            <geom mesh="FR121" pos="0 0 0.0560" class="viz_dhand" euler="0 3.14 1.57"/>
+            <geom mesh="FR121" pos="0 0 0.0560" class="viz_dhand_metal" euler="0 3.14 1.57"/>
             <geom type="box"   pos="0 0 0.0430" size="0.012 0.0205 0.01505" euler="0 3.14 1.57" class="col_dhand"/>
             <joint name="WJLR" type="hinge" pos="0 0 0" axis="0 1 0" limited="true" range="-0.52 0.52"/>
 
