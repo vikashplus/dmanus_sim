@@ -9,8 +9,8 @@
         <geom name="Palmleft2" type="mesh" mesh="PalmL2" pos="-0.001 0 0.1032" class="col_dhand"/>
 
         <!--Plate-->
-          <geom name="plate1_mesh" mesh="plate" pos="0 -0.0255 0.1032" class="viz_dhand"/>
-          <geom name="plate2_mesh" mesh="plate" pos="0 0.0235 0.1032" class="viz_dhand"/>
+          <geom name="plate1_mesh" mesh="palm_plate" pos="0 -0.0255 0.1032" class="viz_dhand"/>
+          <geom name="plate2_mesh" mesh="top_plate" pos="0 0.0235 0.1032" class="viz_dhand" euler="0 0 3.14"/>
 
         <!--Thumb finger-->
         <body name="thumb_finger" pos="0.0343 0.0015 0.027" euler="0 1.92 0">

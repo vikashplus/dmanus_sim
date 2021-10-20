@@ -8,7 +8,8 @@
         <mesh name="bracket2" file="../dmanus_sim/meshes/highres/bracket2.stl"/>
         <mesh name="skeleton" file="../dmanus_sim/meshes/highres/skeleton.stl"/>
         <mesh name="fingertip" file="../dmanus_sim/meshes/highres/fingertip.stl"/>
-        <mesh name="plate" file="../dmanus_sim/meshes/highres/plate.stl"/>
+        <mesh name="palm_plate" file="../dmanus_sim/meshes/highres/palm_plate.stl"/>
+        <mesh name="top_plate" file="../dmanus_sim/meshes/highres/top_plate.stl"/>
         <!-- collision -->
         <mesh name="PalmC" file="../dmanus_sim/meshes/convex/PalmC.stl"/>
         <mesh name="PalmR" file="../dmanus_sim/meshes/convex/PalmR.stl"/>
