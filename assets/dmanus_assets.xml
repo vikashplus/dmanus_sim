@@ -36,6 +36,7 @@
     <actuator>
         <position joint="TFJ1" name="TFA1" kp="100" ctrllimited="true" ctrlrange="-1.3 0.75"/>
         <position joint="TFJ2" name="TFA2" kp="100" ctrllimited="true" ctrlrange="-0.65 2.14"/>
+        <position joint="TFJ2e" name="TFA2e" kp="100" ctrllimited="true" ctrlrange="-0.65 2.14"/>
         <position joint="TFJ3" name="TFA3" kp="100" ctrllimited="true" ctrlrange="0.0 2.0"/>
         <position joint="IFJ1" name="IFA1" kp="100" ctrllimited="true" ctrlrange="-0.75 0.75"/>
         <position joint="IFJ2" name="IFA2" kp="100" ctrllimited="true" ctrlrange="0.0 2.14"/>
@@ -48,6 +49,7 @@
     <sensor>
         <jointpos name="TFJ1" joint="TFJ1"/>
         <jointpos name="TFJ2" joint="TFJ2"/>
+        <jointpos name="TFJ2e" joint="TFJ2e"/>
         <jointpos name="TFJ3" joint="TFJ3"/>
         <jointpos name="IFJ1" joint="IFJ1"/>
         <jointpos name="IFJ2" joint="IFJ2"/>
